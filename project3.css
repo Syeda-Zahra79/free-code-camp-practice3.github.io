@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Maitree:wght@300;400&family=Prata&display=swap');
+
+body{
+    margin-top: 0px;
+    margin-left:  60px;
+}
+a {
+    text-decoration: none;
+}
+header {
+    margin: 0 0 0 0;
+    background-color: rgba(255, 105, 180, 0);
+    height: 70px;
+}
+.header-margin {
+    margin-left: 0;
+    margin-right: 0;
+}
+.nav-link {
+    margin-left: 730px;
+    margin-top: 9px;
+}
+nav.nav-link a
+ {
+    padding: 5px ;
+    margin: 2px 30px 0px 30px;
+    text-decoration: none;
+    color: rgb(112, 112, 112); 
+}
+nav.nav-link a#samjo:hover {
+     color: white;
+     text-shadow: black;
+}
+h1 {
+    text-align: left;
+    font-family: 'Prata',serif;
+    font-weight: 400;
+    font-size: 32;
+}
+p {
+    font-size: 18px;
+    font-family: 'gilda display',serif;
+}
+div.first-page-right {
+    text-align: left;
+    width: 60%;
+    margin-top: 80px;
+    margin-bottom: 70px; 
+}
+
+div.heading-para p {
+    padding-right: 15px;
+    margin-right: 70px;
+}
+div.top-decoration-rec {
+    width: 35px;
+    height: 600px;
+    background-color: rgb(53, 184, 48);
+    position: absolute;
+    top: -200px;
+    left: 1200px;
+    z-index: -1;   
+}
+div.bottow-decoration-rec {
+    width: 150px;
+    height: 35px;
+    background-color: rgb(53, 184, 48);
+    position: absolute;
+    left: 725px;
+    z-index: -1;   
+}
+
+div.see-more-link button {
+    background-color: rgb(53, 184, 48);
+    border: none;
+    width: 100px;
+    height: 35px;
+     /*
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%; 
+    */
+}
+div.see-more-link button a {
+    margin-top: -100px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'gilda display',serif;
+}
+div.see-more-link {
+    margin-top: -200px;
+    margin-bottom: 180px;
+    
+}
+div.kuch-b {
+    margin-top: 220px;
+}
+div.first-page-left {
+    position: absolute;
+    top: 200px;
+    left: 730px;
+    width: 40%;
+    height: 900px;
+}
+div.big-pic {
+    width: 324px;
+    height: 414.5px;
+    margin-left: 101px;
+    margin-top: -20px;
+    position: relative;
+}
+.container1 {
+    max-width: 100%;
+    max-height: 100%;
+    z-index: 0;
+}
+div.right-top-pic {
+    width: 240px;
+    height: 160.5px;
+    margin: -520px 0 0 312px;
+}
+.seedha-wala {
+    max-width: 100%;
+    max-height: 100%; 
+}
+div.right-bottom-pic {
+    width: 128px;
+    height: 192px;
+    margin: 280px 0 0 424px;
+}
+.samosa {
+    max-width: 100%;
+    max-height: 100%;
+}
+hr {
+    margin-top: 50px;
+}
+article {
+    margin: 20px 0 20px 0;
+}
+div.second-page-left {
+    width: 40%;
+    height: 575px;
+}
+.second-page-left {
+    padding-top: 10px;
+    text-align: left;
+    font-family: 'Prata',serif;
+    font-weight: 400;
+    font-size: 32;
+    color: rgb(80, 78, 78);
+    margin-top: 60px;
+}
+div.second-page-right {
+    position: absolute;
+    margin-left: 670px;
+    margin-top: -1000px;
+}
+form.green-form{
+    background-color: rgb(53, 184, 48);
+    width: 400apx;
+    height: 520px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.p-in-here p{
+    margin-top: 90px;
+}
+form > div.p-in-here p {         
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'gilda display',serif;
+    font-weight: bold;
+    color: white;
+}
+.text-in-form {
+    margin-left: 20px;
+    margin-top: 5px;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'maitree',serif;
+    color: white;
+    margin-bottom: 5px;
+}
+div.input-in-form input{
+    width: 330px;
+    height: 35px;
+    margin-left: 10px ;
+    margin-right: 30px;
+    border: none;
+}
+div.form-ki-setting {
+    margin-top: 440px;
+    
+}
+form > button {
+    border: none;
+    margin-left: 140px;
+    margin-top: 30px;
+    padding: 13px 17px 13px 17px;
+    border-radius: 3%;
+}
+p.someie {
+   text-align: center;
+   color: white;
+}
+p.someie a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+div.mid-dec-rec {
+    background-color: white;
+    height: 120px;
+    width: 35px;
+    position: absolute;
+    margin: 0 184.5px 0 184.5px;
+    z-index: 0;
+    animation-duration: 1s;
+    animation-name: loyalty;
+    animation-iteration-count: infinite;
+}
+div.left-dec-rec {
+    background-color: white;
+    height: 70px;
+    width: 35px;
+    position: absolute;
+    margin: 0 245px 0 130px;
+    z-index: 0;
+    animation-name: machli;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes machli
+   {
+        0% {
+            height:70px;
+        }
+        50% {
+            height:40px ;
+        }
+        100% {
+             height: 70px;
+        }
+    }
+@keyframes
+   loyalty  {
+       0% {
+          height: 75px;
+          }
+          30% {
+              height: 110px;
+          }
+       100% {
+           height:75px;
+            }
+    }
+@keyframes 
+ cutie {
+          0% {
+          height: 90px;
+          }
+          90% {
+              height: 50px;
+          }
+          100% {
+          height: 90px;
+           }
+        }
+div.right-dec-rec {
+    background-color: white;
+    height: 90px;
+    width: 35px;
+    position: absolute;
+    margin: 0 130px 0 245px;
+    z-index: 0;
+    animation: cutie 1s infinite;
+}
+.pode-ka-container {
+    width: 174px;
+    height: 232.5px;
+    position: absolute;
+    margin-top: 340px;
+    left: 0px;
+}
+.poda {
+    max-width: 100%;
+    max-height: 100%;
+}
+div.second-page-decoration-rec {
+    background-color: rgb(53, 184, 48);
+    height:35px;
+    width:  180px;
+    position: absolute;
+   margin: 500px 0 0 60px;
+    z-index: -1;
+}
+div.third-page-left {
+    margin: 70px 0 10px 0;
+    width: 50%;
+    height: 650px;
+}
+div.third-page-left h3 { 
+    font-size: 28px;
+    font-family: 'prata',serif;
+    color: rgb(119, 113, 113);
+}
+div.third-page-left h1 {
+    font-size: 46px;
+}
+div.third-page-left h4 {
+    color: rgb(126, 122, 122);
+    font-size: 16px;
+    line-height: 16px;
+}
+div.third-page-left h4 a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(77, 74, 74);
+}
+#button2 , #button3 {
+    height: 50px;
+    width: 190px;
+    padding: 12px 35px 12px;
+     border: none;
+     color: white;
+     background-color: rgb(53, 184, 48);
+     font-size: 22px;
+     font-family: 'gilda display',serif;
+
+}
+#button2 {
+    margin: 30px 50px 0 0;
+}
+.img-three-page {
+    width: 294.27px;
+    height: 44px;
+    position: absolute;
+    margin: 10px 0 0 720px;
+    top:1490px;
+   
+}
+.asli-pic {
+    max-width: 100%;
+    min-width: 100%;
+}
+.dec-rec-third-one {
+    width: 600px;
+    height: 35px;
+    background-color: rgb(53, 184, 48);
+    position: absolute;
+    margin-left: 624px;
+    top: 1570px;
+}
+.dec-rec-third-two {
+    width: 35px;
+    height: 617px;
+    background-color: rgb(53, 184, 48);
+    position: absolute;
+    margin-left: 900px;
+    top: 1530px
+}
+div.footer-ka-container {
+    margin-left: 0px;
+    background-color: rgb(80, 78, 78);
+    margin: 0 0 0 0;
+}
+footer {
+    margin-left: 0;
+    width: 1220px;
+}
